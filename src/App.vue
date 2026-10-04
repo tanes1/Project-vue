@@ -16,19 +16,19 @@
         <li class="nav-item">
           <a class="nav-link" href="/contact">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/grade">Grade</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            API
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="/golds">ราคาทองวันนี้</a></li>
+            <li><a class="dropdown-item" href="/product_api">สินค้า</a></li>
+            <li><a class="dropdown-item" href="/product_table">แสดงสินค้าเป็นตาราง</a></li>
+            <li><a class="dropdown-item" href="/user">แสดงผู้ใช้</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
